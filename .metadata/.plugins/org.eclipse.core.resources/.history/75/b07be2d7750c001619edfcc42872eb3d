@@ -1,8 +1,0 @@
-package InvertedIndex;
-
-import org.apache.hadoop.mapreduce.*;
-
-public class SumCombiner extends 
-		Reducer<Text, IntWritable, Text, IntWritable>{
-
-}
