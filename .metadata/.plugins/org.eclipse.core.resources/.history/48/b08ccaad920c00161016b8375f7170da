@@ -1,0 +1,29 @@
+package InvertedIndex;
+
+import java.io.IOException;
+import java.util.*;
+
+//import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.*;
+import org.apache.hadoop.mapreduce.Reducer;
+
+public class InvertedIndexReducer extends Reducer<Text, IntWritable, Text, Text> {
+
+	private Text word1 = new Text();
+	private Text word2 = new Text();
+	String temp = new String();
+	static Text CurrentItem = new Text(" ");
+	static List<String> postingList = new ArrayList<String>();
+	
+	@Override
+	public void reduce(Text key, Iterable<IntWritable> values,
+			Context context) throws IOException, InterruptedException {
+		int sum = 0;
+		word1.set(key.toString().split("#")[0]);
+		temp = key.toString().split("#")[1];
+		for(IntWritable val : values) {
+			sum += val.get();
+		}
+	}
+
+}

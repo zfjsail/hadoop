@@ -1,0 +1,1190 @@
+!SESSION 2016-04-28 09:34:12.960 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.7.0_95
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+This is a continuation of log file /home/hduser/workspace/.metadata/.bak_0.log
+Created Time: 2016-04-28 09:35:12.555
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:12.555
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:12.556
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:12.558
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:12.575
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:12.575
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:12.602
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:12.603
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:12.643
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:12.644
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:12.655
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:12.656
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:12.694
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:12.695
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:12.743
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:12.743
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:12.787
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:12.788
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:12.834
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:12.835
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:12.875
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:12.877
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:12.912
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:12.917
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:12.956
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:12.958
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:12.989
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:12.989
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:13.026
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:13.027
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:13.062
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:13.063
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:13.113
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:13.113
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:13.151
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:13.153
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:13.212
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:13.214
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:13.257
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:13.258
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:13.301
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:13.302
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:13.315
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:13.316
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:13.350
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:13.351
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:13.392
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:13.393
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:13.438
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:13.438
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:13.452
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:13.453
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:13.488
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:13.490
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:13.528
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:13.528
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:13.565
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:13.567
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:13.615
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-04-28 09:35:13.617
+!MESSAGE An internal error occurred during: "Connecting to DFS myDFS".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.hadoop.hdfs.DFSConfigKeys
+	at org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:509)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:638)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.access$200(FileSystem.java:92)
+	at org.apache.hadoop.fs.FileSystem$Cache.getInternal(FileSystem.java:2687)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2669)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:170)
+	at org.apache.hadoop.eclipse.server.HadoopServer.getDFS(HadoopServer.java:478)
+	at org.apache.hadoop.eclipse.dfs.DFSPath.getDFS(DFSPath.java:146)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder.loadDFSFolderChildren(DFSFolder.java:61)
+	at org.apache.hadoop.eclipse.dfs.DFSFolder$1.run(DFSFolder.java:178)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)

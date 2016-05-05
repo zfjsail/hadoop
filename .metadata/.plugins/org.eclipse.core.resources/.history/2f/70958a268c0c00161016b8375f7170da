@@ -1,0 +1,10 @@
+package InvertedIndex;
+
+import org.apache.hadoop.mapred.lib.*;
+
+public class NewPartitioner extends HashPartition<Text, IntWritable>{ 
+	public int getPartition(Text key, IntWritable value, int numReduceTasks) {
+		
+	}
+
+}
