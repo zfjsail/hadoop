@@ -1,0 +1,30 @@
+
+import java.io.IOException;
+
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.hbase.HBaseConfiguration;
+import org.apache.hadoop.hbase.TableName;
+import org.apache.hadoop.hbase.client.Connection;
+import org.apache.hadoop.hbase.client.ConnectionFactory;
+import org.apache.hadoop.hbase.client.Table;
+
+
+public class HBase2local {
+	
+	private static Configuration conf = null;
+	static Table table = null;
+	static Connection connection = null;
+	
+	private static void setup() throws IOException {
+		conf = HBaseConfiguration.create();
+		connection = ConnectionFactory.createConnection(conf);
+		table = connection.getTable(TableName.valueOf("Wuxia"));
+	}
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		setup();
+
+	}
+
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.apache.hadoop.hbase.HBaseConfiguration"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.conf.Configuration"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.hbase.HTableDescriptor"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.hbase.HColumnDescriptor"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.hbase.client.HTable"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.hbase.client.Connection"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.hbase.client.ConnectionFactory"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.hbase.client.Table"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.hbase.TableName"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.hbase.client.Put"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.hbase.client.Scan"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.hbase.client.ResultScanner"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.hbase.client.Result"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.hbase.util.Bytes"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.hbase.KeyValue"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.hbase.CellUtil"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+</qualifiedTypeNameHistroy>
