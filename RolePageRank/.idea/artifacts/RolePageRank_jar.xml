@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="RolePageRank:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/RolePageRank_jar</output-path>
+    <root id="archive" name="RolePageRank.jar">
+      <element id="module-output" name="RolePageRank" />
+      <element id="extracted-dir" path="/usr/local/hadoop/share/hadoop/common/hadoop-common-2.7.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="/usr/local/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.7.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="/usr/local/hadoop/share/hadoop/hdfs/hadoop-hdfs-2.7.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
