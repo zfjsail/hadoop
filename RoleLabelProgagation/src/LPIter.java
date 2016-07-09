@@ -89,9 +89,7 @@ public class LPIter extends Configured implements Tool {
                 }
             }
 
-            // if(!maxLabel.equals(oldLabel)) isUpdated = true;
             if(!maxLabel.equals(oldLabel)) {
-                //Configuration conf = context.getConfiguration();
                 conf.set("isUpdated", "true");
             }
 

@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AggRoleMining:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AggRoleMining_jar</output-path>
+    <root id="archive" name="AggRoleMining.jar">
+      <element id="module-output" name="AggRoleMining" />
+      <element id="extracted-dir" path="/usr/local/hadoop/share/hadoop/hdfs/hadoop-hdfs-2.7.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="/usr/local/hadoop/share/hadoop/common/hadoop-common-2.7.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="/usr/local/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.7.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/课程设计/ansj_seg-5.0.0-all-in-one.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
