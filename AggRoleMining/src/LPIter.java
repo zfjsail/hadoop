@@ -89,6 +89,11 @@ public class LPIter extends Configured implements Tool {
                 }
             }
 
+            // if(!oldLabel.equals(maxLabel)) {
+            //     conf.setBoolean("isUpdated", true);
+            //     System.out.println(oldLabel + " " + maxLabel);
+            // }
+
             context.write(new Text(key + "," + maxLabel), new Text(links));
         }
     }
@@ -125,20 +130,27 @@ public class LPIter extends Configured implements Tool {
         return ret;
     }
 
+    // private static Configuration conf;
+
     public static void main(String[] args) throws Exception {
         int i = 0;
         Configuration conf = new Configuration();
         String[] inargs = {"", ""};
         int MAX_ITER_LOOP = 15; // tuned parameter -- nearly not update
+        // boolean isUpdated;
 
         do {
             inargs[0] = args[0] + i;
             i++;
             inargs[1] = args[0] + i;
 
+            // conf = new Configuration();
+            // conf.setBoolean("isUpdated", false);
             ToolRunner.run(conf, new LPIter(), inargs);
+            // isUpdated = conf.getBoolean("isUpdated", false);
 
         } while (i < MAX_ITER_LOOP);
+        // while (isUpdated && i < MAX_ITER_LOOP);
 
         inargs[0] = args[0] + i;
         inargs[1] = args[0] + "Final";

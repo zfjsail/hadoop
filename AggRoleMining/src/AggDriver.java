@@ -19,7 +19,6 @@ public class AggDriver {
 
         /* label propagation */
         String[] forLP = {args[1] + "/wp_norm/part-r-00000", args[1] + "/lp"};
-        //LPA.main(forLP);
         LPDriver.main(forLP);
     }
 }
